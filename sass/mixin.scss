@@ -1,0 +1,62 @@
+@mixin form-content{
+    background: $form-bg;
+    border-radius: 10px;
+    padding: 50px 85px;
+    width: 40%;
+    margin: auto;
+}
+@mixin input-fields{
+    width: 100%;
+    border: 1px solid $input-boarder;
+    border-radius: 5px;
+    padding: 17px 20px;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-weight: 500;
+    color: #222;
+    margin-block: 10px;
+}
+@mixin heading{
+    line-height: 1.66;
+    margin: 0;
+    padding: 0;
+    font-weight: 900;
+    color: #222;
+    font-size: 24px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 40px;
+}
+@mixin term-services{
+    font-size: 12px;
+font-weight: 600;
+color: $term-service;
+}
+@mixin sign-up{
+    width: 100%;
+    border-radius: 5px;
+    padding: 17px 20px;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-weight: 700;
+    color: $form-bg;
+    text-transform: uppercase;
+    border: none;
+    background-image: linear-gradient(to left, $cgrn,$blue);
+}
+@mixin chkbox-margin{
+    margin-top: 35px;
+    margin-bottom: 30px;
+}
+@mixin log-here{
+    color: $term-service;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 91px;
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+@mixin login{
+    color: $term-service ;
+    font-size: 15px;
+}
